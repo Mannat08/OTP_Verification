@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .parent-div {
+    width: 100vw;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: #f3f7f8;
+  }
+  
+  .child-div {
+    width: 45vw;
+    border: #1371b9;
+  }
+  .header-section {
+    background: #1371b9;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .invalid-otp {
+    width: 46%;
+    margin: 22px auto 0;
+    text-align: center;
+    background: red;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .left {
+    color: #e6eef8;
+    font-size: x-large;
+  }
+ 
+  .left1 {
+    color: #e6eef8;
+    font-size: x-large;
+  
+    margin-left: 10px;
+  }
+  .right1 {
+    margin-left: 315px;
+  }
+  .right1 .bt {
+    color: #e6eef8;
+  }
+  
+  .action-space {
+    border: solid #1371b9;
+  }
+  .space {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .OTP {
+    padding: 40px;
+  }
+  .footer{
+    padding: 18px;
+  }
+  .upper-content {
+    text-align: start;
+    color: #a194a2;
+    font-size: x-large;
+  }
+  .link {
+    text-decoration: none;
+    color: #1d87ff;
+  }
+  .link .bt {
+    color: #1d87ff;
+  }
+  .right .bt {
+    color: #e6eef8;
+  }
+  a{
+    text-decoration: none;
+  }
+  .input-area {
+    width: 39vw;
+    border: 3px solid #d4d8dd;
+    border-radius: 8px;
+    height: 9vh;
+  }
+  .input-area1 {
+    display: flex;
+  }
+  .dropdown {
+    width: 14vw;
+    height: 8vh;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .dropdown select {
+    width: 14vw;
+    height: 8vh;
+    border-radius: 8px;
+    border: 3px solid #d4d8dd;
+  }
+  .input-area1 .field input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #d4d8dd;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .input-area input {
+    width: 38vw;
+    height: 8vh;
+    border-radius: 8px;
+    border: solid transparent;
+  }
+  input:focus {
+    outline: none;
+  }
+  .bt {
+    background-color: transparent;
+    border: transparent;
+    font-size: x-large;
+    cursor: pointer;
+    outline: none;
+  }
+  .btn {
+    border-radius: 10px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1d87ff;
+  }
+  .btnn {
+    /* margin: 20px 2px 2px 2px; */
+    color: #fff;
+    background-color: transparent;
+    border: transparent;
+    font-size: x-large;
+    cursor: pointer;
+    width: 39vw;
+    height: 40px;
+    outline: none;
+  }
+  
+  
